@@ -1,0 +1,13 @@
+C:/Projects/The Big Screen/mobile_The_Big_Screen/build/windows/CMakeFiles/INSTALL.dir
+C:/Projects/The Big Screen/mobile_The_Big_Screen/build/windows/CMakeFiles/ALL_BUILD.dir
+C:/Projects/The Big Screen/mobile_The_Big_Screen/build/windows/CMakeFiles/ZERO_CHECK.dir
+C:/Projects/The Big Screen/mobile_The_Big_Screen/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Projects/The Big Screen/mobile_The_Big_Screen/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Projects/The Big Screen/mobile_The_Big_Screen/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+C:/Projects/The Big Screen/mobile_The_Big_Screen/build/windows/flutter/CMakeFiles/INSTALL.dir
+C:/Projects/The Big Screen/mobile_The_Big_Screen/build/windows/runner/CMakeFiles/cinema_mobile.dir
+C:/Projects/The Big Screen/mobile_The_Big_Screen/build/windows/runner/CMakeFiles/INSTALL.dir
+C:/Projects/The Big Screen/mobile_The_Big_Screen/build/windows/runner/CMakeFiles/ALL_BUILD.dir
+C:/Projects/The Big Screen/mobile_The_Big_Screen/build/windows/plugins/connectivity_plus_windows/CMakeFiles/connectivity_plus_windows_plugin.dir
+C:/Projects/The Big Screen/mobile_The_Big_Screen/build/windows/plugins/connectivity_plus_windows/CMakeFiles/INSTALL.dir
+C:/Projects/The Big Screen/mobile_The_Big_Screen/build/windows/plugins/connectivity_plus_windows/CMakeFiles/ALL_BUILD.dir

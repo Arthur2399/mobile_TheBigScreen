@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">522451182855-f2sk5ftd5ruok5edcguvu0sn77le45ne.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">522451182855</string>
+    <string name="google_api_key" translatable="false">AIzaSyD9WjOhzNegXnAOF04khmq9R6F2XrMysXI</string>
+    <string name="google_app_id" translatable="false">1:522451182855:android:e0490bde9bbd39c98591a2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD9WjOhzNegXnAOF04khmq9R6F2XrMysXI</string>
+    <string name="google_storage_bucket" translatable="false">thebigscreen.appspot.com</string>
+    <string name="project_id" translatable="false">thebigscreen</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "522451182855",
+    "project_id": "thebigscreen",
+    "storage_bucket": "thebigscreen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522451182855:android:e0490bde9bbd39c98591a2",
+        "android_client_info": {
+          "package_name": "com.example.cinema_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522451182855-f2sk5ftd5ruok5edcguvu0sn77le45ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9WjOhzNegXnAOF04khmq9R6F2XrMysXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522451182855-f2sk5ftd5ruok5edcguvu0sn77le45ne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
