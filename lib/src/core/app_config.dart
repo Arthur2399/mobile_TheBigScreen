@@ -14,27 +14,18 @@ class AppConfig {
 
   //static const String CONFIG_API_URL = 'http://10.0.2.2:8080/api';
   //static const String CONFIG_API_URL = 'http://192.168.194.46:8080/api-mobile-erp/api';
-  static const String CONFIG_API_URL = 'http://192.168.194.52:83';
-
-
-
-  static const String CONFIG_API_SERV_REGISTER  = '/user/createu';
-
+  //EMULAR
+  //static const String CONFIG_API_URL = 'http://10.0.2.2:8087';
+  //FISICO
+  static const String CONFIG_API_URL = 'http://154.12.236.19:83';
+  static const String CONFIG_API_SERV_REGISTER = '/user/createu';
   static const String CONFIG_API_SERV_LOGIN = '/user/api-token-auth';
-  
   static const String CONFIG_API_SERV_USER = '/user/user';
-
   static const String CONFIG_API_SERV_MOVIES = '/movies/movies/list';
-  
   static const String CONFIG_API_SERV_RESET_PASSWORD = '/mail/Changepassword';
-
   static const String CONFIG_API_SERV_REWARDS = '/points/awards/list';
-
-   static const String CONFIG_API_SERV_REGISTER_CUPON = '/points/ticket/read';
-
-   static const String CONFIG_API_SERV_GET_SURVEY = '/survey/survey/usr';
-
-   static const String CONFIG_API_SERV_POST_SURVEY = '/survey/survey/answer/';
-
-   static const String CONFIG_API_SERV_TOP5_MOVIES = '/movies/movies/best5';
+  static const String CONFIG_API_SERV_REGISTER_CUPON = '/points/ticket/read';
+  static const String CONFIG_API_SERV_GET_SURVEY = '/survey/survey/usr';
+  static const String CONFIG_API_SERV_POST_SURVEY = '/survey/survey/answer/';
+  static const String CONFIG_API_SERV_TOP5_MOVIES = '/movies/movies/best5';
 }

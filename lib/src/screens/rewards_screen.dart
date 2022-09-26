@@ -41,9 +41,10 @@ class _RewardsPageState extends State<RewardsPage> {
             );
           }
           return SafeArea(
-            
             child: Scaffold(
-               drawer:  const DrawerWidget(selectedOption: MenuOptions.rewards,),
+              drawer: const DrawerWidget(
+                selectedOption: MenuOptions.rewards,
+              ),
               appBar: AppBar(
                 title: const Text(
                   "Premios",

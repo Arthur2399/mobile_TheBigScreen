@@ -138,7 +138,6 @@ class _SettingsPageState extends State<SettingsPage> {
                                 ],
                               ),
                             ),
-                            
                             const Padding(
                               padding: EdgeInsets.all(8.0),
                               child: ListTile(
@@ -156,19 +155,24 @@ class _SettingsPageState extends State<SettingsPage> {
                                     Padding(
                                       padding:
                                           const EdgeInsets.only(right: 200.0),
-                                      child: SizedBox(
-                                          height: 150,
-                                          width: 150,
-                                          child: Container(
-                                            decoration: BoxDecoration(
-                                                image: DecorationImage(
-                                                    image: NetworkImage(AppConfig
-                                                            .CONFIG_API_URL +
-                                                        "" +
-                                                        user.qrprofile
-                                                            .toString()),
-                                                    fit: BoxFit.cover)),
-                                          )),
+                                      child: GestureDetector(
+                                        onTap: () {
+                                          showAlert(context);
+                                        },
+                                        child: SizedBox(
+                                            height: 150,
+                                            width: 150,
+                                            child: Container(
+                                              decoration: BoxDecoration(
+                                                  image: DecorationImage(
+                                                      image: NetworkImage(AppConfig
+                                                              .CONFIG_API_URL +
+                                                          "" +
+                                                          user.qrprofile
+                                                              .toString()),
+                                                      fit: BoxFit.cover)),
+                                            )),
+                                      ),
                                     ),
                                     Padding(
                                       padding:
@@ -229,5 +233,33 @@ class _SettingsPageState extends State<SettingsPage> {
     if (isQrScanned == true) {
       setState(() {});
     }
+  }
+
+  void showAlert(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text(''),
+        content: SizedBox(
+            height: 275,
+            width: double.infinity,
+            child: Container(
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: NetworkImage(AppConfig.CONFIG_API_URL +
+                          "" +
+                          user.qrprofile.toString()),
+                      fit: BoxFit.fill)),
+            )),
+        actions: <Widget>[
+          TextButton(
+            onPressed: () {
+              Navigator.pop(context, 'OK');
+            },
+            child: const Text('Aceptar'),
+          ),
+        ],
+      ),
+    );
   }
 }
